@@ -1,4 +1,4 @@
-from freshmail.exceptions import MessageNotSupportedException
+from exceptions import MessageNotSupportedException
 
 
 class FreshmailSender:

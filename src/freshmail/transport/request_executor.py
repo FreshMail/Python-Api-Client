@@ -2,7 +2,7 @@ import platform
 
 import requests
 
-from freshmail.exceptions import RequestException, ServerException, ClientException
+from exceptions import RequestException, ServerException, ClientException
 
 
 class RequestExecutor:

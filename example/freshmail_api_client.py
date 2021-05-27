@@ -6,7 +6,7 @@ from freshmail.messaging.email.mailbag import MailBag
 from freshmail.sender.sender import FreshmailSender
 from freshmail.transport.api.email import EmailApiTransport
 
-from freshmail.exceptions import ClientException
+from exceptions import ClientException
 
 from base64 import b64encode
 

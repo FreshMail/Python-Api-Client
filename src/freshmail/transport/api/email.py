@@ -1,6 +1,6 @@
-from freshmail.exceptions import MissingBearerTokenException
-from freshmail.messaging.email.mailbag import MailBag
-from freshmail.transport.request_executor import RequestExecutor
+from exceptions import MissingBearerTokenException
+from messaging.email.mailbag import MailBag
+from transport.request_executor import RequestExecutor
 
 
 class EmailApiTransport:

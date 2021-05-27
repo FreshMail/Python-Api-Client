@@ -285,7 +285,7 @@ def setup_logger(logger, level=logging.INFO, path="stdout"):
     logger.addHandler(ch)
 
 bearer_token = "MY_APP_TOKEN"
-logger = logging.getLogger("freshmail_api_client")
+logger = logging.getLogger("freshmail_client")
 setup_logger(logger, level=logging.DEBUG)
 
 transport = EmailApiTransport(bearer_token=bearer_token, logger=logger)
