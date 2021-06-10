@@ -159,7 +159,7 @@ class MailBag:
             template_hash = template_hash.strip()
         self.__template_hash = template_hash
 
-    def __prepare_data(self):
+    def prepare_data(self):
         data = json.dumps(self.__repr__(), default=lambda o: o.__repr__())
         return data
 

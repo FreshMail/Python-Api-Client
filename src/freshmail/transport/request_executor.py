@@ -17,7 +17,7 @@ class RequestExecutor:
 
     def post(self, uri, message, bearer_token=None, proxies=None):
         headers = self.__prepare_headers(bearer_token)
-        data = message.__prepare_data()
+        data = message.prepare_data()
         url = self.__scheme + "://" + self.__host + "/" + self.__version + "/" + uri
         if self.logger:
             self.logger.debug(
