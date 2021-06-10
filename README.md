@@ -11,7 +11,7 @@ This API V3 client covers only sending transactional emails by FreshMail Applica
 # Installation
 
 ``` bash
-pip install freshmail
+pip install freshmail-api
 ```
 
 # Usage

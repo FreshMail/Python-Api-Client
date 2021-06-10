@@ -1,8 +1,8 @@
 import json
 from typing import List
 
-from exceptions import *
-from messaging.email.attachment import Base64Attachment, LocalFileAttachment
+from freshmail.exceptions import *
+from freshmail.messaging.email.attachment import Base64Attachment, LocalFileAttachment
 
 
 class MailBag:
